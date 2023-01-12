@@ -4,11 +4,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Links</title>
+  <title>Inspirations</title>
+  <style>
+    * {
+      background-color: #fefae0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin: 0 auto;
+    }
+
+    .container a {
+      padding: 1rem;
+      border: 1px solid black;
+      box-shadow: 5px 5px 0 black;
+      text-decoration: none;
+      color: black;
+      transition: box-shadow 0.3s;
+      width: 380px;
+      margin: 0 auto;
+    }
+
+    .container a:hover {
+      box-shadow: -5px 5px 0 black;
+    }
+  </style>
 </head>
 <body>
-  <a href="./shapes.html">shapes</a>
-  <a href="./scroll-on-screen/">scroll-on-screen</a>
-  <a href="./light-hover.html">light-hover</a>
+  <div class="container">
+    
+    <a href="./shapes.html">shapes</a>
+    <a href="./scroll-on-screen/">scroll-on-screen</a>
+    <a href="./light-hover.html">light-hover</a>
+  </div>
 </body>
 </html>
